@@ -1,0 +1,213 @@
+.container {
+  width: 965px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.loop {
+  transform: scale(1, 1, -1);
+}
+.input_wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 263px;
+}
+.input {
+  border: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #2a3b45;
+  color: #1d252e;
+  outline: none;
+  &::placeholder {
+    color: #a0a0a0;
+  }
+  &_err {
+    outline: none;
+    border: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ff0000;
+    color: #1d252e;
+  }
+}
+
+.linsa {
+  position: absolute;
+  right: 4px;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 52px;
+}
+.err {
+  color: #ff0000;
+  font-family: "RobotoLight", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 16px;
+  margin: 0;
+}
+.services_wrap {
+  max-width: 965px;
+  margin: 0 auto;
+  display: flex;
+}
+.sidebar {
+  margin-top: 150px;
+  margin-right: 20px;
+  min-width: 190px;
+}
+.text {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 66px;
+}
+.filter {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0084ca;
+  margin-bottom: 12px;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &_active {
+    font-family: "MontserratRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0084ca;
+    margin-bottom: 12px;
+    text-decoration: underline;
+  }
+}
+.arrow {
+  margin-left: 6px;
+  &_reverse {
+    margin-left: 6px;
+    transform: rotate(180deg);
+  }
+}
+.subfilter_wrap {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  & li {
+    margin: 0;
+    padding: 3px 28px 3px 8px;
+    font-family: "MontserratRegular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+    width: 130px;
+    &:hover {
+      background: #f2f2f2;
+    }
+  }
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 124px;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  &:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  }
+  &_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & > p {
+      margin-top: 16px;
+      margin-left: 60px;
+      font-family: "MontserratRegular";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    & div {
+      margin-bottom: 16px;
+      margin-left: 60px;
+      display: flex;
+      cursor: pointer;
+    }
+    & img {
+      margin-left: 6px;
+    }
+  }
+}
+.btn {
+  width: 54px;
+  height: 54px;
+  background: #0084ca;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 34px;
+  margin-right: 53px;
+}
+.price_wrap {
+  display: flex;
+  align-items: center;
+}
+.counter_wrap {
+  width: 90px;
+  height: 41px;
+  border: 1px solid #0084ca;
+  border-radius: 4px;
+  margin-right: 34px;
+  margin-left: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,145 @@
+.header {
+  width: 100%;
+  background: #1d252e;
+  height: 56px;
+  &__burger {
+    display: flex;
+    align-items: center;
+  }
+}
+a {
+  text-decoration: none;
+  font-family: RobotoBold, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #fff;
+  margin: 0 10px 0 15px;
+}
+.langs {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.logo {
+  cursor: pointer;
+}
+.white_arrow {
+  margin-left: 5px;
+}
+.dropdawn_wrap {
+  position: relative;
+}
+.dropdawn {
+  width: 61px;
+  height: 112px;
+  background: #1d252e;
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 16px;
+}
+.lang {
+  padding: 6px 26px 7px 3px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.border {
+  border-bottom: 1px solid #016da6;
+}
+.burger {
+  width: 30px;
+}
+.burger_container {
+  height: 74px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  &_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  &_title {
+    text-align: center;
+    font-family: RobotoRegular, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #000;
+    margin: 0;
+  }
+  &_subtitle {
+    margin-left: 5px;
+    text-align: center;
+    letter-spacing: 1.05em;
+    color: #000000;
+    font-size: 8px;
+    line-height: 16px;
+  }
+}
+.burger {
+  cursor: pointer;
+}
+.input_wrap {
+  border: 1px solid #cd9933;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 195px;
+  height: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d252e;
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    background: #cd9933;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  &:hover > svg > path {
+    stroke: #fff;
+    transition: all 0.4s;
+  }
+}
