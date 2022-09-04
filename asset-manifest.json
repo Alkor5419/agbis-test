@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7505a9d9.css",
+    "main.js": "/static/js/main.8f6c179a.js",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/Viber.svg": "/static/media/Viber.60a8f439e6edade2e6777fd964554a03.svg",
+    "static/media/insta.svg": "/static/media/insta.3b44c5a8fc554a6fb40cf97c6a691d4d.svg",
+    "static/media/cart.svg": "/static/media/cart.2af81b3bddb98305a805c223e083dfe8.svg",
+    "static/media/Fb.svg": "/static/media/Fb.24a0d39ce782a493852c2ec0fca12633.svg",
+    "static/media/Whatsapp.svg": "/static/media/Whatsapp.8e70e49cb934d69dbe89351402f1172b.svg",
+    "static/media/Close.svg": "/static/media/Close.d5a2da37702578dca481c6e96d9111c5.svg",
+    "index.html": "/index.html",
+    "static/media/white-arrow.svg": "/static/media/white-arrow.94d2bf97dcaf7a657ac3934f9a43807b.svg",
+    "static/media/linsa.svg": "/static/media/linsa.b61b9635555d576dbf5d29cb8d2b2a12.svg",
+    "static/media/plus.svg": "/static/media/plus.ddc1a1f89d614d388d5840426bb9726e.svg",
+    "static/media/ArrowRight.svg": "/static/media/ArrowRight.887ecea608d9d582d6204937805fa226.svg",
+    "static/media/Burger.svg": "/static/media/Burger.896f54d5fae6eca9604f0e527025d13e.svg",
+    "static/media/Arrow.svg": "/static/media/Arrow.d851d65f21dcb323f77b2bff9cb20c5d.svg",
+    "static/media/minus.svg": "/static/media/minus.a27bd0e421979d6b52d5a8e8a4228c6f.svg",
+    "main.7505a9d9.css.map": "/static/css/main.7505a9d9.css.map",
+    "main.8f6c179a.js.map": "/static/js/main.8f6c179a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7505a9d9.css",
+    "static/js/main.8f6c179a.js"
+  ]
+}
